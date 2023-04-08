@@ -4,5 +4,5 @@ public interface IDomainEvent<TKey>
 {
 	TKey Id { get; }
 
-	System.DateTime PublishDateTime { get; }
+	System.DateTimeOffset PublishDateTime { get; }
 }
